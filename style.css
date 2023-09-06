@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+.page-header{
+    width: 100%;
+    height: 10vh;
+    background: #000;
+    color: #fff;
+    padding-top: 30px;
+    border-bottom: 1px solid #fff;
+
+}
+.page-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mini-head{
+    display: flex;
+    align-items: center;
+}
+.page-head h2{
+    padding-left: 10px;
+}
+span{
+    color: rgb(21, 238, 50);
+    font-size: 30px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: start;
+    margin-top: 7px;
+    padding-left: 150px
+    
+}
+.navbar li{
+    list-style-type: none;
+    padding-right: inline-start;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    font-weight: 200px;
+}
+/* .main-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,1fr);
+} */
+.page-head h3{
+    padding-right: 30px;
+    font-weight: 100px;
+}
+.main-img{
+    width: 40px;
+    height: auto;
+    border-radius: 70%;
+}
+.images-container{
+    display: flex;
+}
+.text-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px ;
+}
+.image-note{
+    width: 40%;
+    border-radius: 10px;
+    background-image: url("images/eli.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #000;
+}
+.image-note h4{
+  padding: 15px;
+}
+.image-note h5{
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 300px;
+    
+  }
+  .image-note .container1{
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 8px;
+    background-color: #000;
+    
+    
+  }
+/* .image2{
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    padding: auto;
+    position: relative;
+} */
+#text1{
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 100;
+}
+#text2{
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.images-container h3{
+    padding-left: 5px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 100;
+}
+.main-textarea{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 50px;
+}
+.sub-textarea{
+    display: flex;
+    margin-top: 10px;
+   
+}
+.sub-textarea h4{
+    padding-left: 350px;
+  
+}
+#image-note{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.text-area2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.main-text2{
+   padding: 30px;
+}
+.main-text2 h3{
+    padding-left: 60px;
+    margin-bottom: 30px;
+    font-weight: 100px;
+    font-size: 20px;
+}
+.main-listItems ul{
+    display: inline block;
+}
+.main-listItems li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.main-listItems li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 5px;
+    width: 20%;
+
+}
+.main-containers2{
+    display: flex;
+    color: #000;
+    margin-right: 40px;
+    width: 50%;
+    height: 30vh;
+    
+}
+.mini-container1{
+    background-color: #f77205;
+    width: 120%;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 10px ;
+
+}
+.mini-container1 h2{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 16px;
+}
+.mini-container2{
+    background-color: #ecebea;
+    width: 120%;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 10px ;
+
+}
+.mini-container2 h2{
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    font-size: 16px;
+}
+.mini-container3{
+    background-color: #fce72c;
+    width: 120%;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 10px ;
+
+}
+.mini-container3 h2{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 16px;
+}
+.mini-container3 h3{
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.main-text:nth-of-type(1){
+    grid-column: 1/2;
+}
+.main-text:nth-of-type(4){
+    grid-column: 2/4;
+}
+
+
+
+
+
+
+
+
+
